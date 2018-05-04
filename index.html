@@ -21,5 +21,46 @@
             </div>
         </div>
     </header>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header"><i class="far fa-calendar-alt"></i> <b>Search Parameters</b></div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Light card title</h5> -->
+                            <form>
+                                <div class="form-group">
+                                    <label for="search-term">Search term:</label>
+                                    <input type="text" class="form-control" id="search-term" placeholder="e.g - California, war, politics">
+                                </div>
+                                <div class="form-group">
+                                    <label for="search-records">Number of records to retrieve</label>
+                                    <select class="form-control" id="search-records">
+                                    <option>5</option>
+                                    <option>10</option>
+                                    <option>15</option>
+                                    <option>20</option>
+                                    <option>100</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="search-start-year">Start Year (Optional):</label>
+                                    <input type="text" class="form-control" id="search-start-year" placeholder="2015, 2016, 2017">
+                                </div>
+                                <div class="form-group">
+                                    <label for="search-end-year">End Year (Optional):</label>
+                                    <input type="text" class="form-control" id="search-start-year" placeholder="2015, 2016, 2017">
+                                </div>
+                                <button id="search-button" type="button" class="btn btn-outline-primary"><i class="fas fa-search"></i> Search</button>
+                                <button id="search-clear" type="button" class="btn btn-outline-secondary"><i class="fas fa-trash-alt"></i> Clear Results</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
